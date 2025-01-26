@@ -27,7 +27,11 @@
             	border: none; /* Remove the default cell borders */
             	height: 2px; /* Adjust the height of the horizontal line */
             	background-color: #8d9194; /* Set the color of the line */
-        }
+        	}
+		.empty-row td{
+		height: 10px;
+		}
+		}
 	</style>
         <!-- meta data -->
         <meta charset="utf-8">
@@ -454,11 +458,9 @@ If you have any questions, do not hesitate to email <a href="mailto:marta.malesz
 	    
         </thead>
         <tbody>
-		<tr>
-		    <td> </td>
-		    <td> </td>
-		    <td> </td>
-	    </tr>
+		<tr class="empty-row">
+		    <td colspan="3"></td>
+	    	</tr>
             <tr>
                 <td colspan="2"><b>Arrival of attendees & Registration</b></td>
                 <td><b>8:30-9:00</b></td>
